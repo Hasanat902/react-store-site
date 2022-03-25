@@ -7,9 +7,8 @@
     align-items: center;
     justify-content: space-between;
 }
-.header img{
-    width: 90px;
-    height: 70px;
+.header h3{
+    color: tomato;
 }
 
 .menu a{
