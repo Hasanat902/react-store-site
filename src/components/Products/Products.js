@@ -14,9 +14,11 @@ const Products = () => {
     return (
         <div className='row'>
             <div className="col-md-10 product-details">
-                {
-                    products.map(product => <Product key={product.id}></Product>)
-                }
+                <div className='row container'>
+                    {
+                        products.map(product => <Product key={product.id} product={product}></Product>)
+                    }   
+                </div>
             </div>
             <div className="col-md-2 product-cart">
                 <h3>Order Summary</h3>
